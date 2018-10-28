@@ -9,8 +9,8 @@ import org.junit.Assert;
 public class AgrupadorTest {
 
 	/**
-	 * Completad la definicion de la clase AgrupadorConList para que implemente la
-	 * interface (este ejercicio es de repaso, no usa los metodos default)
+	 * Completad la definición de la clase AgrupadorConList para que implemente la
+	 * interface (este ejercicio es de repaso, no usa los métodos default)
 	 */
 	@Test
 	public void test_add() {
@@ -24,9 +24,8 @@ public class AgrupadorTest {
 	}
 
 	/**
-	 * definid un metodo default addAll que acepte un Collection y añada cada objeto
-	 * al agrupador Cuando tengais el metodo, descomentad el codigo comentado en el
-	 * test
+	 * definid un método default addAll que acepte un Collection y añada cada objeto
+	 * al agrupador
 	 */
 	@Test
 	public void test_addAll() {

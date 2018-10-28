@@ -6,14 +6,14 @@ import java.util.List;
 
 /**
  * Para las soluciones de estos ejercicios utiliza streams, las operaciones
- * intermedias que necesites y una operacion terminal con una estructura
+ * intermedias que necesites y una operación terminal con una estructura
  * mutante.
  */
 public class ReduccionesUtil {
 
 	/**
-	 * Devuelve una coleccion con los Strings de la lista original con: - los nulls
-	 * eliminados del resultado - el resto pasado a may�sculas.
+	 * Devuelve una colección con los Strings de la lista original con: - los nulls
+	 * eliminados del resultado - el resto pasado a mayúsculas.
 	 * 
 	 * Es decir, si pasamos {"a",null,"b",null} debe devolver {"A","B"}
 	 * 
@@ -26,8 +26,8 @@ public class ReduccionesUtil {
 	}
 
 	/**
-	 * Devolver un array de dos enteros. En la posicion 0 con el numero de pares
-	 * encontrado en la lista de numeros y en la posicion 1 el numero de impares
+	 * Devolver un array de dos enteros. En la posición 0 con el número de pares
+	 * encontrado en la lista de numeros y en la posición 1 el número de impares
 	 * 
 	 * Por ejemplo, si numeros es { 0, 1, 2, 4 } debe devolver [3,1]
 	 */

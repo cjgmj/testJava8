@@ -6,19 +6,19 @@ import java.util.function.Predicate;
 
 /**
  * El objetivo de esta clase es validar que objetos del tipo T cumplen unos
- * determinados requisitos. Estos requisitos son dinamicos (se pueden configurar
- * durante la ejecucion), por lo que, en lugar de tener una comprobacion fija,
+ * determinados requisitos. Estos requisitos son dinámicos (se pueden configurar
+ * durante la ejecución), por lo que, en lugar de tener una comprobación fija,
  * tendremos una lista de validadores individuales. El usuario de esta clase
- * podra sumar validadores mediante un metodo add ( que teneis que implementar
- * ). El metodo valida debera devolver true si el objeto que se pasa como
- * parametro cumple con todos los validadores de la lista y false si no.
+ * podrá sumar validadores mediante un metodo add ( que tenéis que implementar
+ * ). El método valida deberá devolver true si el objeto que se pasa como
+ * parámetro cumple con todos los validadores de la lista y false si no.
  * 
  * Para completar esta clase falta: - indicar el tipo de los elementos de la
  * List validadores: pensad, debe ser un tipo que nos diga si un objeto del tipo
- * T cumple con una condicion o no. - implementar el metodo add para aceptar un
+ * T cumple con una condición o no. - implementar el método add para aceptar un
  * nuevo validador individual y acumularlo a la lista validadores - implementar
- * el metodo valida para que realice la accion indicada mas arriba. Sera
- * necesario cambiar el tipo del parametro de Object al tipo adecuado
+ * el método valida para que realice la acción indicada más arriba. Será
+ * necesario cambiar el tipo del parámetro de Object al tipo adecuado
  */
 public class Validador<T> {
 

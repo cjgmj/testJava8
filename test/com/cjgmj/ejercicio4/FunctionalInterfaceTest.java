@@ -15,7 +15,7 @@ import org.junit.Test;
 public class FunctionalInterfaceTest {
 
 	/**
-	 * Modificad el test asignando a la variable cuadrado una expresion que produzca
+	 * Modificad el test asignando a la variable cuadrado una expresión que produzca
 	 * un IntUnaryOperator que, dado un entero, devuelva su cuadrado.
 	 */
 
@@ -31,7 +31,7 @@ public class FunctionalInterfaceTest {
 	}
 
 	/**
-	 * Igual que el anterior, sustituid el null asignado a menor por una expresion
+	 * Igual que el anterior, sustituid el null asignado a menor por una expresión
 	 * que produzca un operador que devuelva el menor de dos numeros
 	 */
 	@Test
@@ -44,13 +44,13 @@ public class FunctionalInterfaceTest {
 	}
 
 	/**
-	 * En los siguientes ejercicios debereis implementar tanto la declaracion de la
-	 * interface funcional como la lambda expression a assignar. Se utiliza el
-	 * termino generico funcion, pero la opcion a usar puede ser cualquier tipo de
+	 * En los siguientes ejercicios deberéis implementar tanto la declaración de la
+	 * interface funcional como la lambda expression a asignar. Se utiliza el
+	 * término genérico función, pero la opción a usar puede ser cualquier tipo de
 	 * interface funcional del JDK Este ejercicio no tiene pruebas unitarias, ya que
-	 * parte del ejercicio es determinar que tipo es el mas adecuado en cada caso y,
-	 * sin la variable declarada con su tipo, es dificil hacer un test! Por este
-	 * motivo, debereis probar vosotros mismos vuestros resultados. Para facilitaros
+	 * parte del ejercicio es determinar que tipo es el más adecuado en cada caso y,
+	 * sin la variable declarada con su tipo, es difícil hacer un test! Por este
+	 * motivo, deberéis probar vosotros mismos vuestros resultados. Para facilitaros
 	 * las pruebas se crean tres personas con distintos apellidos.
 	 */
 	@Test
@@ -99,12 +99,9 @@ public class FunctionalInterfaceTest {
 	public void test_validadores() {
 
 		/**
-		 * Modificad la clase validador conforme las instrucciones que encontrareis ahi
-		 * 
-		 * Hecho esto, descomentad el codigo que sigue (que, con vuestros cambios en
-		 * Validador deberia compilar excepto por el contenido en la invocacion al
-		 * metodo add. Como parametro al metodo add debereis pasar una expresion que
-		 * produzca el tipo de funcion que hayais decidido que usa la clase Validador
+		 * Modificad la clase validador conforme las instrucciones que encontraréis ahí
+		 * Como parámetro al método add deberéis pasar una expresión que
+		 * produzca el tipo de función que hayáis decidido que usa la clase Validador
 		 */
 		Validador<Persona> validador = new Validador<Persona>();
 

@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class PersonaUtil {
 
-	/** todos los metodos deben construir streams a partir de esta lista */
+	/** todos los métodos deben construir streams a partir de esta lista */
 	private List<Persona> bbdd = new ArrayList<>();
 
 	public PersonaUtil() {
@@ -31,8 +31,8 @@ public class PersonaUtil {
 	}
 
 	/**
-	 * Devuelve stream con primer apellido ordenado sin tener en cuenta mayusculas /
-	 * minusculas pista: metodo de String compareToIgnoreCase
+	 * Devuelve stream con primer apellido ordenado sin tener en cuenta mayúsculas /
+	 * minúsculas pista: método de String compareToIgnoreCase
 	 */
 	public Stream<String> listaApellido1Ordenada() {
 		return bbdd.stream().map(p -> p.getApellido1()).sorted((p1, p2) -> p1.compareToIgnoreCase(p2));

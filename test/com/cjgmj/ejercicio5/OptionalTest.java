@@ -13,7 +13,7 @@ public class OptionalTest {
 
 	/**
 	 * Implementad la parte del constructor que falta en el constructor de vivienda
-	 * con un parametro
+	 * con un parámetro
 	 */
 	@Test
 	public void test_constructor_empty() {
@@ -26,7 +26,7 @@ public class OptionalTest {
 
 	/**
 	 * Implementad la parte del constructor que falta en el construtor de vivienda
-	 * con dos parametros
+	 * con dos parámetros
 	 */
 	@Test
 	public void test_constructor_present() {
@@ -41,7 +41,7 @@ public class OptionalTest {
 	}
 
 	/**
-	 * Implementad el metodo de Vivienda nombrePropietario()
+	 * Implementad el método de Vivienda nombrePropietario()
 	 */
 	@Test
 	public void test_vivienda_getNombre_present() {

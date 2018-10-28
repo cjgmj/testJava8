@@ -18,8 +18,7 @@ public class ProblemaTest {
 		List<String> nombres = Arrays.asList("Juan", "Antonia", "Pedro");
 
 		// asigna a comparadorLongitud un comparador que ordene los strings
-		// segun la longitud de MAYOR a MENOR (es decir, al contrario que el ejemplo de
-		// la presentacion.
+		// según la longitud de MAYOR a MENOR
 		// * solo debes modificar la siguiente linea, el resto de codigo debe quedar
 		// igual *
 		Comparator<String> comparadorLongitud = (o1, o2) -> o2.length() - o1.length();

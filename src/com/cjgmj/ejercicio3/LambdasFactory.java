@@ -1,20 +1,20 @@
 package com.cjgmj.ejercicio3;
 
 /**
- * El ejercicio consiste en implementar los metodos de tal forma que devuelvan
+ * El ejercicio consiste en implementar los métodos de tal forma que devuelvan
  * una lambda expression que implementen la interface declarada como tipo de
- * devolucion.
+ * devolución.
  * 
  * Por ejemplo
  * 
- * El primer metodo devuelve un objeto del tipo Constante En la parte inferior
- * de este fichero encontrareis la definicion de Constante que tiene un metodo
+ * El primer método devuelve un objeto del tipo Constante En la parte inferior
+ * de este fichero encontraréis la definicioón de Constante que tiene un método
  * abstract: int valor();
  * 
- * Por tanto, vuestra implementacion del metodo devuelve5 debe tener la forma:
+ * Por tanto, vuestra implementación del método devuelve5 debe tener la forma:
  * return lambda_expression;
  * 
- * Donde lambda_expression es una implementacion del metodo int valor() que
+ * Donde lambda_expression es una implementación del método int valor() que
  * siempre devuelve 5
  * 
  */
