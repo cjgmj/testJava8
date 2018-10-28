@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class TestLambdas {
+public class LambdasTest {
 
 	private LambdasFactory fact = new LambdasFactory();
 	

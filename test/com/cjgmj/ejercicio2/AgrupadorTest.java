@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Assert;
 
-public class TestAgrupador {
+public class AgrupadorTest {
 
 	/**
 	 * Completad la definicion de la clase AgrupadorConList 
