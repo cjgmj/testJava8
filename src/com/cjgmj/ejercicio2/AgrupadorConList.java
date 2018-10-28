@@ -16,6 +16,5 @@ public class AgrupadorConList implements Agrupador {
 	public int numeroElementos() {
 		return contenido.size();
 	}
-	
 
 }

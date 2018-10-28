@@ -5,8 +5,7 @@ public class Persona {
 	private String nombre;
 	private String apellido1;
 	private String apellido2;
-	
-	
+
 	public Persona(String nombre, String apellido1, String apellido2) {
 		this.nombre = nombre;
 		this.apellido1 = apellido1;
@@ -16,11 +15,11 @@ public class Persona {
 	public String getNombre() {
 		return nombre;
 	}
-	
+
 	public String getApellido1() {
 		return apellido1;
 	}
-	
+
 	public String getApellido2() {
 		return apellido2;
 	}
@@ -41,6 +40,5 @@ public class Persona {
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2=" + apellido2 + "]";
 	}
-	
-	
+
 }

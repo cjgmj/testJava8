@@ -4,12 +4,12 @@ import java.util.Collection;
 
 public interface Agrupador {
 
-	void add (Object elemento);
-	
+	void add(Object elemento);
+
 	int numeroElementos();
-	
+
 	default void addAll(Collection<Object> col) {
-		for (Object o: col) {
+		for (Object o : col) {
 			add(o);
 		}
 	}
