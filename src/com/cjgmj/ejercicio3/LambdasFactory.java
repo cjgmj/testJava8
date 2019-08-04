@@ -8,7 +8,7 @@ package com.cjgmj.ejercicio3;
  * Por ejemplo
  * 
  * El primer método devuelve un objeto del tipo Constante En la parte inferior
- * de este fichero encontraréis la definicioón de Constante que tiene un método
+ * de este fichero encontraréis la definición de Constante que tiene un método
  * abstract: int valor();
  * 
  * Por tanto, vuestra implementación del método devuelve5 debe tener la forma:
